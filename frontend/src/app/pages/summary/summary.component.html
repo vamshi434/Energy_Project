@@ -1,0 +1,20 @@
+<div class="summary-container">
+    <h2>Summary Chart</h2>
+  
+    <div class="chart-wrapper">
+      <canvas baseChart
+              [data]="chartData"
+              [options]="chartOptions"
+              [type]="'bar'">
+      </canvas>
+    </div>
+  
+    <p class="description">
+      This chart represents recent innovations or investments in clean energy sectors.
+      Source: 
+      <a href="https://www.iea.org/reports/clean-energy-innovation" target="_blank">
+        IEA Report
+      </a>
+    </p>
+  </div>
+  

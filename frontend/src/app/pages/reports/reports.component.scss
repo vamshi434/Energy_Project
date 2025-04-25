@@ -1,0 +1,29 @@
+.reports-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .chart-section {
+    margin-bottom: 3rem;
+  }
+  
+  .chart-wrapper {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
